@@ -77,6 +77,7 @@ function HomePage() {
     handlePrev();
   }
   const totalPages = Math.ceil(filteredTasks.length / visibleTaskLimit);
+
   const handleTaskChanged = () => {
     fetchTasks();
   };
